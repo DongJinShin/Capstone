@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#797979"
+    android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Coin Management - 적립 내역 조회"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:background="#3e3a39" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_below="@+id/title"
+                android:layout_above="@+id/brn_gift"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="현재 적립금 : "
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:paddingBottom="8dp"
+                    android:textColor="#ffffff"
+                    android:text="1,080 Coin"
+                    android:gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="일주일"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="1개월"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="3개월"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+</RelativeLayout>
