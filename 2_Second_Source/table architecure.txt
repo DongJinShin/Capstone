@@ -1,0 +1,63 @@
+CREATE TABLE `nz_user` (
+  `id_nz_user` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_user_email` varchar(100) NOT NULL,
+  `nz_user_password` varchar(100) NOT NULL,
+  `nz_user_nickname` varchar(100) NOT NULL,
+  `nz_user_qr_uri` varchar(100) NOT NULL,
+  `nz_user_coin` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_nz_user`),
+  UNIQUE KEY `nz_user_email_UNIQUE` (`nz_user_email`),
+  UNIQUE KEY `id_nz_user_UNIQUE` (`id_nz_user`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_manager` (
+  `id_nz_manager` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_manager_email` varchar(100) NOT NULL,
+  `nz_manager_password` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_manager`),
+  UNIQUE KEY `id_nz_manager_UNIQUE` (`id_nz_manager`),
+  UNIQUE KEY `nz_manager_email_UNIQUE` (`nz_manager_email`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_gift` (
+`id_nz_gift` int(11) NOT NULL AUTO_INCREMENT,
+`nz_gift_from_user_email` varchar(100) NOT NULL,
+`nz_gift_dst_user_email` varchar(100) NOT NULL,
+`nz_gift_amount` int(11) NOT NULL,
+`nz_gift_from_user_balance` int(11) NOT NULL,
+`nz_gift_dst_user_balance` int(11) NOT NULL,
+`nz_gift_time` varchar(100) NOT NULL,
+PRIMARY KEY (`id_nz_gift`),
+KEY `nz_gift_from_user_email_idx` (`nz_gift_from_user_email`),
+KEY `nz_gift_dst_user_email_idx` (`nz_gift_dst_user_email`),
+CONSTRAINT `nz_gift_dst_user_email` FOREIGN KEY (`nz_gift_dst_user_email`) REFERENCES `nz_user` (`nz_user_email`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+CONSTRAINT `nz_gift_from_user_email` FOREIGN KEY (`nz_gift_from_user_email`) REFERENCES `nz_user` (`nz_user_email`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_save` (
+`id_nz_save` int(11) NOT NULL AUTO_INCREMENT,
+`nz_save_manager_email` varchar(100) NOT NULL,
+`nz_save_user_email` varchar(100) NOT NULL,
+`nz_save_amount` int(11) NOT NULL,
+`nz_save_balance` int(11) NOT NULL,
+`nz_save_time` varchar(100) NOT NULL,
+PRIMARY KEY (`id_nz_save`),
+KEY `nz_save_manager_id_idx` (`nz_save_manager_email`),
+KEY `nz_save_user_id_idx` (`nz_save_user_email`),
+CONSTRAINT `nz_save_manager_email` FOREIGN KEY (`nz_save_manager_email`) REFERENCES `nz_manager` (`nz_manager_email`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+CONSTRAINT `nz_save_user_email` FOREIGN KEY (`nz_save_user_email`) REFERENCES `nz_user` (`nz_user_email`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_use` (
+`id_nz_use` int(11) NOT NULL AUTO_INCREMENT,
+`nz_use_manager_email` varchar(100) NOT NULL,
+`nz_use_user_email` varchar(100) NOT NULL,
+`nz_use_amount` int(11) NOT NULL,
+`nz_use_balance` int(11) NOT NULL,
+`nz_use_time` varchar(100) DEFAULT NULL,
+PRIMARY KEY (`id_nz_use`),
+KEY `nz_manager_id_idx` (`nz_use_manager_email`),
+KEY `nz_user_id_idx` (`nz_use_user_email`),
+CONSTRAINT `nz_manager_email` FOREIGN KEY (`nz_use_manager_email`) REFERENCES `nz_manager` (`nz_manager_email`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+CONSTRAINT `nz_user_email` FOREIGN KEY (`nz_use_user_email`) REFERENCES `nz_user` (`nz_user_email`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
