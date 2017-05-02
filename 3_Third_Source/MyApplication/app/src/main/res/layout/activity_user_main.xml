@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#797979"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Coin Management"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:background="@color/colorPrimaryLight">
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryLight"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:id="@+id/btn_notice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0.5dp"
+            android:textColor="#ffffff"
+            android:background="#102937"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="공지 사항"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_user_trade_coin_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0.5dp"
+            android:textColor="#ffffff"
+            android:background="#102937"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="적립금 내역 조회"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_gift"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#102937"
+            android:layout_marginBottom="0.5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="선물하기"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_setting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#102937"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="환경 설정"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_email"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/tv_coin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"/>
+
+        <ImageView
+            android:id="@+id/iv_qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_above="@id/layout_btn"
+            android:layout_below="@id/tv_coin"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
