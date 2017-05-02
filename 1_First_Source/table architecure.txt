@@ -1,0 +1,23 @@
+CREATE TABLE `nz_user` (
+  `id_nz_user` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_user_email` varchar(100) NOT NULL,
+  `nz_user_password` varchar(100) NOT NULL,
+  `nz_user_nickname` varchar(100) NOT NULL,
+  `nz_user_qr_uri` varchar(100) NOT NULL,
+  `nz_user_coin` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_nz_user`),
+  UNIQUE KEY `nz_user_email_UNIQUE` (`nz_user_email`),
+  UNIQUE KEY `id_nz_user_UNIQUE` (`id_nz_user`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+
+
+
+
+CREATE TABLE `nz_manager` (
+  `id_nz_manager` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_manager_email` varchar(100) NOT NULL,
+  `nz_manager_password` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_manager`),
+  UNIQUE KEY `id_nz_manager_UNIQUE` (`id_nz_manager`),
+  UNIQUE KEY `nz_manager_email_UNIQUE` (`nz_manager_email`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
