@@ -1,1 +1,1 @@
-# Capstone - www.kpu.ac.kr - BK_LOVE
+BK_LOVE - PPT , HWP , Source Code
