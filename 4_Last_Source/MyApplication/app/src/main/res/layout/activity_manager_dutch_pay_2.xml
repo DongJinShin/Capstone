@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:onClick="finish"
+            android:src="@drawable/ic_keyboard_arrow_left_white_36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="더치페이"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_below="@+id/title">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount1"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification1"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"
+            android:id="@+id/linearLayout1"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification2"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount2"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification2"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm3"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification3"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount3"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification3"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm4"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification4"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount4"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification4"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm5"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification5"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount5"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification5"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_certification_confirm6"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="인증 필요"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/btn_dutch_pay_certification6"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="인증"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dutch_pay_amount6"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/btn_dutch_pay_certification6"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGray"></LinearLayout>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="17dp"
+            android:background="@color/colorPrimary"
+            android:text="결 제"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ManagerMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.UserMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.CheckCoinActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UserTradeCoinListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.LogInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity android:name=".activity.UserGiftActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity android:name=".activity.UseCoinActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SignUpActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ManagerSaveCoinActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ManagerUseCoinActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SaveCoinCheckActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".activity.CoinListCheckActivity"
+            android:screenOrientation="portrait">
+            </activity>
+
+        <activity android:name=".activity.NoticeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".activity.NoticeDetailActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".activity.ManagerDutchPay1Activity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".activity.ManagerDutchPay2Activity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activity.CaptureActivityPortrait"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+    </activity>
+
+        <service
+            android:name=".FCM.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".FCM.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

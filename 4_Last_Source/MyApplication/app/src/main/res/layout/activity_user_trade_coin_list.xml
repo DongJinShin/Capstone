@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:onClick="finish"
+            android:src="@drawable/ic_keyboard_arrow_left_white_36dp" />
+
+        <ImageView
+            android:id="@+id/renew"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_autorenew_white_36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="적립금 내역 조회"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/title"
+        android:id="@+id/tv_balance_text"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="현재 적립금 : "
+        android:textColor="@color/colorAccent"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/tv_balance_text"/>
+
+    <LinearLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryLight"
+        android:layout_below="@+id/tv_balance"></LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_trade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/divider"
+        android:background="@color/colorWhite"
+        android:divider="@color/colorPrimaryLight"
+        android:dividerHeight="0.5dp">
+
+    </ListView>
+
+
+</RelativeLayout>
