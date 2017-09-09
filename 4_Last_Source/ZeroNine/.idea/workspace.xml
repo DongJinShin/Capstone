@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9205b76-0eb5-48be-a5e2-ce00ca656a55" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SignUp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignUp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="25" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHelper.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8123">
+              <caret line="1318" column="36" lean-forward="true" selection-start-line="1318" selection-start-column="36" selection-end-line="1318" selection-end-column="36" />
+              <folding>
+                <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+                <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+                <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+                <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+                <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+                <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+                <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+                <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+                <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+                <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+                <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+                <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+                <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+                <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+                <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+                <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+                <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+                <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+                <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FCMRegister.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FCMRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FCMRegisterID.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FCMRegisterID.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DutchPay4.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DutchPay4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DutchPay5.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DutchPay5.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="112" lean-forward="false" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DutchPay6.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DutchPay6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DutchPay3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DutchPay3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiftCoin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GiftCoin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DutchPay2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DutchPay2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DST</find>
+      <find>date</find>
+      <find>json</find>
+      <find>trade</find>
+      <find>useCo</find>
+      <find>while</find>
+      <find>notice</find>
+      <find>trad</find>
+      <find>strnatcasecmp</find>
+      <find>usort</find>
+      <find>amount5</find>
+      <find>update</find>
+      <find>register</find>
+      <find>gift</find>
+      <find>giftCoin</find>
+      <find>insertFC</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DBHelper.php" />
+        <option value="$PROJECT_DIR$/Test.php" />
+        <option value="$PROJECT_DIR$/Saving.php" />
+        <option value="$PROJECT_DIR$/SaveUseList.php" />
+        <option value="$PROJECT_DIR$/ConfirmDuplicatedID.php" />
+        <option value="$PROJECT_DIR$/LogIn.php" />
+        <option value="$PROJECT_DIR$/User.php" />
+        <option value="$PROJECT_DIR$/UserCoin.php" />
+        <option value="$PROJECT_DIR$/TradeList.php" />
+        <option value="$PROJECT_DIR$/utils/QRHelper.php" />
+        <option value="$PROJECT_DIR$/SignUp.php" />
+        <option value="$PROJECT_DIR$/SaveCoin.php" />
+        <option value="$PROJECT_DIR$/UseCoin.php" />
+        <option value="$PROJECT_DIR$/Notice.php" />
+        <option value="$PROJECT_DIR$/NoticeList.php" />
+        <option value="$PROJECT_DIR$/DutchPay1.php" />
+        <option value="$PROJECT_DIR$/DutchPay2.php" />
+        <option value="$PROJECT_DIR$/DutchPay3.php" />
+        <option value="$PROJECT_DIR$/DutchPay4.php" />
+        <option value="$PROJECT_DIR$/DutchPay6.php" />
+        <option value="$PROJECT_DIR$/DutchPay5.php" />
+        <option value="$PROJECT_DIR$/FCMRegister.php" />
+        <option value="$PROJECT_DIR$/FCMRegisterID.php" />
+        <option value="$PROJECT_DIR$/GiftCoin.php" />
+        <option value="$PROJECT_DIR$/utils/DBHelper.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-99" />
+    <option name="y" value="49" />
+    <option name="width" value="1936" />
+    <option name="height" value="1074" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeroNine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeroNine" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeroNine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeroNine" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\ZeroNine\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.SignUp.php">
+    <configuration default="false" name="SignUp.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/SignUp.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.SignUp.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.SignUp.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9205b76-0eb5-48be-a5e2-ce00ca656a55" name="Default" comment="" />
+      <created>1491034309539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491034309539</updated>
+      <workItem from="1491034311349" duration="1037000" />
+      <workItem from="1491194070135" duration="1302000" />
+      <workItem from="1491195384366" duration="11144000" />
+      <workItem from="1491272611594" duration="22297000" />
+      <workItem from="1492402035721" duration="13679000" />
+      <workItem from="1492510246392" duration="11839000" />
+      <workItem from="1494477988352" duration="744000" />
+      <workItem from="1496387192860" duration="599000" />
+      <workItem from="1497025866871" duration="6681000" />
+      <workItem from="1497169605736" duration="12799000" />
+      <workItem from="1497186263765" duration="7349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89470000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-99" y="49" width="1936" height="1074" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32251522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40495867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LogIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/QRHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradeList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiftCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+            <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+            <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+            <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+            <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+            <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+            <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+            <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/QRHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradeList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiftCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+            <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+            <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+            <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+            <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+            <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+            <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+            <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/QRHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiftCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+            <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+            <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+            <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+            <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+            <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+            <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+            <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/QRHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+            <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+            <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+            <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+            <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+            <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+            <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+            <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveUseList.php" />
+    <entry file="file://$PROJECT_DIR$/ConfirmDuplicatedID.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/QRHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="93" lean-forward="false" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoticeList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradeList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DutchPay3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DutchPay4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DutchPay6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DutchPay5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="112" lean-forward="false" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DutchPay2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GiftCoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FCMRegisterID.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FCMRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/DBHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8123">
+          <caret line="1318" column="36" lean-forward="true" selection-start-line="1318" selection-start-column="36" selection-end-line="1318" selection-end-column="36" />
+          <folding>
+            <marker date="1497193327530" expanded="true" signature="1536:1555" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="1536:1723" ph="INSERT INTO nz_user... " />
+            <marker date="1497193327530" expanded="true" signature="2142:2217" ph="SELECT * FRO... nz_fcm_register" />
+            <marker date="1497193327530" expanded="true" signature="2301:2412" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="2609:2750" ph="INSERT INTO nz_fcm_register... " />
+            <marker date="1497193327530" expanded="true" signature="3192:3273" ph="SELECT * FRO... nz_fcm_register_id" />
+            <marker date="1497193327530" expanded="true" signature="3357:3465" ph="UPDATE nz_fc... " />
+            <marker date="1497193327530" expanded="true" signature="3662:3803" ph="INSERT INTO nz_fcm_register_id... " />
+            <marker date="1497193327530" expanded="true" signature="4244:4290" ph="SELECT * FRO... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="4773:4969" ph="SELECT id_nz... nz_manager" />
+            <marker date="1497193327530" expanded="true" signature="5497:5773" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="5953:6221" ph="SELECT nz_ma... " />
+            <marker date="1497193327530" expanded="true" signature="6401:6665" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="6845:7111" ph="SELECT nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="7719:7902" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="8399:8605" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9097:9162" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="9664:9905" ph="SELECT id_nz... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="10427:10553" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="10427:10573" ph="SELECT id_nz... " />
+            <marker date="1497193327530" expanded="true" signature="11243:11328" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="11477:11546" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="11838:12021" ph="INSERT INTO nz_save... " />
+            <marker date="1497193327530" expanded="true" signature="12790:12875" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="13024:13093" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="13591:13767" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="14608:14691" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="14840:14906" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="15295:15378" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="15589:15655" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="16395:16570" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="17023:17198" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="18486:18569" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="18718:18784" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="19173:19256" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="19487:19553" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="20086:20169" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="20484:20550" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="21458:21633" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22182:22357" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="22938:23113" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="24972:25055" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25204:25270" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="25659:25742" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="25973:26039" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="26572:26655" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="26970:27036" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="27713:27796" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="28195:28261" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="29337:29512" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="30157:30332" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31009:31184" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="31893:32068" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="34621:34704" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="34853:34919" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="35308:35391" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="35622:35688" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="36221:36304" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="36619:36685" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="37362:37445" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="37844:37910" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="38731:38814" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="39297:39363" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="40607:40782" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="41523:41698" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="42471:42646" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="43451:43626" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="44463:44638" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="48009:48092" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="48241:48307" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="48696:48779" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="49010:49076" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="49609:49692" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="50007:50073" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="50750:50833" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="51232:51298" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="52119:52202" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="52685:52751" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="53716:53799" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="54366:54432" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="55844:56019" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="56856:57031" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="57900:58075" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="58976:59151" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="60084:60259" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="61224:61399" ph="INSERT INTO nz_use... " />
+            <marker date="1497193327530" expanded="true" signature="65617:65702" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="65851:65920" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66321:66389" ph="SELECT nz_us... nz_user" />
+            <marker date="1497193327530" expanded="true" signature="66509:66593" ph="UPDATE nz_us... " />
+            <marker date="1497193327530" expanded="true" signature="67109:67355" ph="INSERT INTO nz_gift... " />
+            <marker date="1497193327530" expanded="true" signature="67746:68005" ph="SELECT nz_fc... nz_fcm_register" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
