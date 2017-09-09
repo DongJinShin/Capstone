@@ -1,0 +1,92 @@
+CREATE TABLE `nz_fcm_register_id` (
+  `id_nz_fcm_register_id` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_fcm_register_id_id` varchar(100) NOT NULL,
+  `nz_fcm_register_id_device_id` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_fcm_register_id`),
+  UNIQUE KEY `nz_fcm_register_id_device_id_UNIQUE` (`nz_fcm_register_id_device_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_gift` (
+  `id_nz_gift` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_gift_from_user_id` varchar(100) NOT NULL,
+  `nz_gift_dst_user_id` varchar(100) NOT NULL,
+  `nz_gift_amount` int(11) NOT NULL,
+  `nz_gift_from_user_balance` int(11) NOT NULL,
+  `nz_gift_dst_user_balance` int(11) NOT NULL,
+  `nz_gift_time` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_gift`),
+  KEY `nz_gift_dst_user_id_idx` (`nz_gift_dst_user_id`),
+  KEY `nz_gift_from_user_id_idx` (`nz_gift_from_user_id`),
+  CONSTRAINT `nz_gift_dst_user_id` FOREIGN KEY (`nz_gift_dst_user_id`) REFERENCES `nz_user` (`nz_user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `nz_gift_from_user_id` FOREIGN KEY (`nz_gift_from_user_id`) REFERENCES `nz_user` (`nz_user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_manager` (
+  `id_nz_manager` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_manager_email` varchar(100) NOT NULL,
+  `nz_manager_password` varchar(100) NOT NULL,
+  `nz_manager_store_name` varchar(100) NOT NULL,
+  `nz_manager_id` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_manager`),
+  UNIQUE KEY `id_nz_manager_UNIQUE` (`id_nz_manager`),
+  UNIQUE KEY `nz_manager_email_UNIQUE` (`nz_manager_email`),
+  UNIQUE KEY `nz_manager_id_UNIQUE` (`nz_manager_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_notice` (
+  `id_nz_notice` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_notice_title` varchar(200) NOT NULL,
+  `nz_notice_content` varchar(500) NOT NULL,
+  `nz_notice_time` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_notice`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_save` (
+  `id_nz_save` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_save_manager_id` varchar(100) NOT NULL,
+  `nz_save_user_id` varchar(100) NOT NULL,
+  `nz_save_amount` int(11) NOT NULL,
+  `nz_save_balance` int(11) NOT NULL,
+  `nz_save_time` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_save`),
+  KEY `nz_save_manager_id_idx` (`nz_save_manager_id`),
+  KEY `nz_save_user_id_idx` (`nz_save_user_id`),
+  CONSTRAINT `nz_save_manager_id` FOREIGN KEY (`nz_save_manager_id`) REFERENCES `nz_manager` (`nz_manager_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `nz_save_user_id` FOREIGN KEY (`nz_save_user_id`) REFERENCES `nz_user` (`nz_user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_use` (
+  `id_nz_use` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_use_manager_id` varchar(100) NOT NULL,
+  `nz_use_user_id` varchar(100) NOT NULL,
+  `nz_use_amount` int(11) NOT NULL,
+  `nz_use_balance` int(11) NOT NULL,
+  `nz_use_time` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_nz_use`),
+  KEY `nz_user_id_idx` (`nz_use_user_id`),
+  KEY `nz_manager_id_idx` (`nz_use_manager_id`),
+  CONSTRAINT `nz_manager_id` FOREIGN KEY (`nz_use_manager_id`) REFERENCES `nz_manager` (`nz_manager_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `nz_user_id` FOREIGN KEY (`nz_use_user_id`) REFERENCES `nz_user` (`nz_user_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `nz_user` (
+  `id_nz_user` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_user_email` varchar(100) NOT NULL,
+  `nz_user_password` varchar(100) NOT NULL,
+  `nz_user_name` varchar(100) NOT NULL,
+  `nz_user_qr_uri` varchar(100) NOT NULL,
+  `nz_user_coin` double NOT NULL DEFAULT '0',
+  `nz_user_id` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_user`),
+  UNIQUE KEY `nz_user_email_UNIQUE` (`nz_user_email`),
+  UNIQUE KEY `id_nz_user_UNIQUE` (`id_nz_user`),
+  UNIQUE KEY `nz_user_id_UNIQUE` (`nz_user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
+CREATE TABLE `nz_fcm_register` (
+  `id_nz_fcm_register` int(11) NOT NULL AUTO_INCREMENT,
+  `nz_fcm_register_id` varchar(500) NOT NULL,
+  `nz_fcm_register_device_id` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_nz_fcm_register`),
+  UNIQUE KEY `nz_fcm_register_id_UNIQUE` (`nz_fcm_register_id`),
+  UNIQUE KEY `nz_fcm_device_id_UNIQUE` (`nz_fcm_register_device_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
